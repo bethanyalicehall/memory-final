@@ -17,6 +17,12 @@ a {
 #rulesList {
     list-style: none !important;
 }
+
+#game-title {
+    text-align: center;
+    font-size: larger;
+}
+
 /*Positioning the main game area*/
 .game {
     position: absolute;
@@ -32,9 +38,22 @@ a {
 }
 
 button {
+    background: lightcoral;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 0;
+    cursor: pointer;
+    font-family: Fredoka;
+    font-size: 18pt;
     cursor: pointer;
 
 }
+
+.disabled {
+    color: #757575;
+}
+
 .board-container {
     position: relative;
 }
@@ -47,6 +66,12 @@ button {
     transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
     backface-visibility: hidden;
 }
+.board {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 20px;
+}
 
 .board-container.flipped .board {
     transform: rotateY(180deg) rotateZ(50deg);
@@ -56,12 +81,7 @@ button {
     transform: rotateY(0) rotateZ(0);
 }
 
-.board {
-    padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 20px;
-}
+
 
 .card {
     position: relative;
