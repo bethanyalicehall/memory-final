@@ -3,6 +3,10 @@ body{
     height: 100%;
     background: lightblue !important;
 }
+/*Font for headers*/
+.font-1{
+    font-family: 'Londrina Shadow', cursive !important;
+  }
 
 /*Removes the blue underlined styling in the links*/
 a {
@@ -13,3 +17,4 @@ a {
 #rulesList {
     list-style: none !important;
 }
+
