@@ -1,7 +1,7 @@
 body{
     width: 100%;
     height: 100%;
-    background: lightblue !important;
+    background-image: url("../img/background1.jpg") !important;
 }
 /*Font for headers*/
 .font-1{
@@ -38,8 +38,8 @@ a {
 }
 
 button {
-    background: lightcoral;
-    color: #FFF;
+    background: #B5E2C2;
+    color: black;
     border-radius: 5px;
     padding: 10px 20px;
     border: 0;
@@ -181,9 +181,37 @@ button {
     position: absolute;
     border-radius: 5px;
     backface-visibility: hidden;
-    background-color: lightgreen;
+   
 }
 
+#alpaca {
+    background-color: beige;
+}
+
+#dolphin {
+    background-color: blue;
+}
+#capybara {
+    background-color: blue;
+}
+#orangutan {
+    background-color: blue;
+}
+#panda {
+    background-color: blue;
+}
+#penguin {
+    background-color: blue;
+}
+#sloth {
+    background-color: blue;
+}
+#otter {
+    background-color: blue;
+}
+#starfish {
+    background-color: coral;
+}
 
 .fact-card.flip {
     transform: rotateY(180deg);
