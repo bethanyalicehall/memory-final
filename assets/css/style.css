@@ -142,6 +142,8 @@ button {
     color: #6f00fc;
 }
 
+/**Fact card page**/
+
 
 .fact-grid {
     width: 1000px;
@@ -179,6 +181,7 @@ button {
     position: absolute;
     border-radius: 5px;
     backface-visibility: hidden;
+    background-color: lightgreen;
 }
 
 
@@ -198,23 +201,25 @@ button {
    
   /* For Tablet View */
   @media screen and (max-device-width: 1024px) {
-    .board {
-      width: 400px;
-      height: 400px;
+    .game {
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+        width: 400px;
+        height: 400px;
     }
-  }
-   
-  /* For Mobile Portrait View */
-  @media screen and (max-device-width: 480px)
-  and (orientation: portrait) {
+      
+
     
-  }
-   
-  /* For Mobile Landscape View */
-  @media screen and (max-device-width: 640px)
-  and (orientation: landscape) {
-    
+    .card {
+        position: relative;
+        width: 75px;
+        height: 75px;
+        cursor: pointer;
     }
+}
+   
   
    
   /* For Mobile Phones Portrait or Landscape View */
@@ -222,3 +227,4 @@ button {
    
   }
    
+ 
