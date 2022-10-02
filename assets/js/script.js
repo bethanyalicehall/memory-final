@@ -1,3 +1,11 @@
+
+ const fcards = document.querySelectorAll('.fact-card');
+function flipTheCard() {
+    this.classList.toggle('flip');
+  }
+  fcards.forEach(fcard => fcard.addEventListener('click', flipTheCard));
+
+
 const selectors = {
     boardContainer: document.querySelector('.board-container'),
     board: document.querySelector('.board'),
@@ -121,6 +129,7 @@ const flipCard = card => {
                     You won!<br />
                     with <span class="highlight">${state.totalFlips}</span> moves<br />
                     under <span class="highlight">${state.totalTime}</span> seconds
+                    <p><a href="level2.html">Click here</a></p>
                 </span>
             `
 
@@ -144,3 +153,4 @@ const attachEventListeners = () => {
 
 generateGame()
 attachEventListeners()
+///////
