@@ -30,7 +30,63 @@ a {
     gap: 20px;
     margin-bottom: 20px;
 }
+
 button {
     cursor: pointer;
 
 }
+.board-container {
+    position: relative;
+}
+
+.board,
+.win {
+    border-radius: 5px;
+    box-shadow: 0 25px 50px rgb(33 33 33 / 25%);
+    background: lightgreen;
+    transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
+    backface-visibility: hidden;
+}
+
+.board {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 20px;
+}
+
+.card {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    background: #282A3A;
+    transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
+    backface-visibility: hidden;
+}
+
+.card-back {
+    transform: rotateY(180deg) rotateZ(50deg);
+    font-size: 28pt;
+    user-select: none;
+    text-align: center;
+    line-height: 100px;
+    background: #FDF8E6;
+}
+
+.card.flipped .card-front {
+    transform: rotateY(180deg) rotateZ(50deg);
+}
+
+.card.flipped .card-back {
+    transform: rotateY(0) rotateZ(0);
+}
+
