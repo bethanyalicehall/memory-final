@@ -2,6 +2,7 @@ body{
     width: 100%;
     height: 100%;
     background-image: url("../img/background1.jpg") !important;
+   
 }
 /*Font for headers*/
 .font-1{
@@ -56,6 +57,7 @@ button {
 
 .board-container {
     position: relative;
+   
 }
 
 .board,
@@ -87,6 +89,7 @@ button {
     position: relative;
     width: 100px;
     height: 100px;
+    
     cursor: pointer;
 }
 
@@ -141,6 +144,21 @@ button {
 .highlight {
     color: #6f00fc;
 }
+
+@media screen and (max-width: 800px) {
+    .card {
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        height: 50px;
+        width: 50px;
+    }
+}
+
 
 /*********************************   Fact card page      *******************************************/
 
@@ -230,10 +248,11 @@ button {
   .cardsf {
     max-width: 1200px;
     align-items: center;
-    justify-items: right;
+    
     display:grid;
     align-items: center;
     gap: 1rem;
+    margin: auto;
   }
 
   @media (min-width: 600px) {
