@@ -142,7 +142,7 @@ button {
     color: #6f00fc;
 }
 
-/**Fact card page**/
+/*********************************   Fact card page      *******************************************/
 
 
 .fact-grid {
@@ -246,38 +246,3 @@ button {
   
 
   
-/**
- /* For Desktop View 
-@media screen and (min-width: 1024px) {
-    
-  }
-   
-  /* For Tablet View 
-  @media screen and (max-device-width: 1024px) {
-    .game {
-        position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-        width: 400px;
-        height: 400px;
-    }
-      
-
-    
-    .card {
-        position: relative;
-        width: 75px;
-        height: 75px;
-        cursor: pointer;
-    }
-}
-   
-  
-   
-  /* For Mobile Phones Portrait or Landscape View 
-  @media screen and (max-device-width: 640px) {
-   
-  }
-   
- */ 
