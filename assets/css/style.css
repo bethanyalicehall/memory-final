@@ -302,6 +302,18 @@ button {
     background-color: #568c72;
 }
 
+#turtle {
+    background-color: #459088;
+}
+
+#parrot {
+    background-color: #568c72;
+}
+
+#koala {
+    background-color: #459088;
+}
+
 .fact-card.flip {
     transform: rotateY(180deg);
   }
