@@ -1,5 +1,4 @@
-
- const fcards = document.querySelectorAll('.fact-card');
+const fcards = document.querySelectorAll('.fact-card');
 function flipTheCard() {
     this.classList.toggle('flip');
   }

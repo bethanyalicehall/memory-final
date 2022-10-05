@@ -42,7 +42,7 @@ font-size: 40px !important;
     font-size: larger;
     
 }
-
+/*Level 1*/
 /*Positioning the main game area*/
 .game {
     position: absolute;
@@ -98,6 +98,15 @@ button {
     grid-gap: 20px;
 }
 
+.board2 {
+    padding: 20px !important;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px !important;
+}
+
+
+
 .board-container.flipped .board {
     transform: rotateY(180deg) rotateZ(50deg);
 }
@@ -133,7 +142,7 @@ button {
     user-select: none;
     text-align: center;
     line-height: 100px;
-    background: #FDF8E6;
+    background: #fbfcf0;
 }
 
 .card.flipped .card-front {
@@ -143,6 +152,9 @@ button {
 .card.flipped .card-back {
     transform: rotateY(0) rotateZ(0);
 }
+
+
+
 
 .win {
     position: absolute;
@@ -165,7 +177,7 @@ button {
 }
 
 .highlight {
-    color: #6f00fc;
+    color: #459088;
 }
 
 @media screen and (max-width: 800px) {
