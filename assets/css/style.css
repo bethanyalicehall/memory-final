@@ -150,12 +150,30 @@ button {
         height: 70px;
         width: 70px;
     }
+.card-back{
+    transform: rotateY(180deg) rotateZ(50deg);
+    font-size: 28pt;
+    user-select: none;
+    text-align: center;
+    line-height: 75px;
+    background: #FDF8E6;
+}
+    
 }
 
 @media screen and (max-width: 600px) {
     .card {
         height: 50px;
         width: 50px;
+    }
+
+    .card-back{
+        transform: rotateY(180deg) rotateZ(50deg);
+        font-size: 28pt;
+        user-select: none;
+        text-align: center;
+        line-height: 50px;
+        background: #FDF8E6;
     }
 }
 
