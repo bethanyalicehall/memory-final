@@ -100,9 +100,8 @@ button {
 
 .board2 {
     padding: 20px !important;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 10px !important;
+   
+    grid-gap: 0px !important;
 }
 
 
