@@ -23,6 +23,10 @@ a {
     color: inherit !important;
 }
 
+li {
+    list-style: none !important;
+}
+
 .modal-content {
     background-color: #c9e4ca !important;
 }
