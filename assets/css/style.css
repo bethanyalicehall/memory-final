@@ -162,7 +162,7 @@ button {
     width: 100%;
     height: 100%;
     text-align: center;
-    background: #FDF8E6;
+    background: #c9e4ca;
     transform: rotateY(180deg) rotateZ(50deg);
 }
 
@@ -173,6 +173,19 @@ button {
     transform: translate(-50%, -50%);
     font-size: 21pt;
     color: #282A3A;
+}
+
+#win-btn {
+    background: #568c72;
+    color: #fbfcf0 !important;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 0;
+    cursor: pointer;
+    font-family: Fredoka;
+    font-size: 15pt;
+    cursor: pointer;
+
 }
 
 .highlight {

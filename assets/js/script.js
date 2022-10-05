@@ -125,10 +125,13 @@ const flipCard = card => {
             selectors.boardContainer.classList.add('flipped')
             selectors.win.innerHTML = `
                 <span class="win-text">
-                    You won!<br />
-                    with <span class="highlight">${state.totalFlips}</span> moves<br />
-                    under <span class="highlight">${state.totalTime}</span> seconds
-                    <p><a href="level2.html">Click here</a></p>
+                    <h1 class="font-1">You won!</h1>
+                    <br/>
+                    You used <span class="highlight">${state.totalFlips}</span> moves<br />
+                    and took <span class="highlight">${state.totalTime}</span> seconds
+                    <button class="win-btn"><a href="level2.html">Brave enough for level 2?</a></button>
+                    <br>
+                    <button class="win-btn"><a href="level1.html">Practice more on level 1</a></button>
                 </span>
             `
 
