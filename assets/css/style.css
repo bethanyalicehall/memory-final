@@ -15,9 +15,7 @@ a {
     color: inherit !important;
 }
 /*Removes the bullet points on the list items*/
-#rulesList {
-    list-style: none !important;
-}
+
 
 #game-title {
     text-align: center;
