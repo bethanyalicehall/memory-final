@@ -219,32 +219,32 @@ button {
 }
 
 #alpaca {
-    background-color: beige;
+    background-color: #568c72;
 }
 
 #dolphin {
-    background-color: blue;
+    background-color: #459088;
 }
 #capybara {
-    background-color: blue;
+    background-color: #568c72;
 }
 #orangutan {
-    background-color: blue;
+    background-color: #459088;
 }
 #panda {
-    background-color: blue;
+    background-color: #568c72;
 }
 #penguin {
-    background-color: blue;
+    background-color: #459088;
 }
 #sloth {
-    background-color: blue;
+    background-color: #568c72;
 }
 #otter {
-    background-color: blue;
+    background-color: #459088;
 }
 #starfish {
-    background-color: coral;
+    background-color: #568c72;
 }
 
 .fact-card.flip {
@@ -256,7 +256,7 @@ button {
   }
 
   .cardf {
-    color: white;
+    color: #fbfcf0;
     height: 20rem;
     width: 20rem;
     margin: auto;
