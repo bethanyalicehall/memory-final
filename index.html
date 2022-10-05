@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="px-4 py-5 my-5 text-center">
+    <div class="px-4 py-5 my-5 text-center" id="home-text">
 
         <h1 class="display-3 fw-bold font-1">Creature Corner</h1>
 
@@ -27,38 +27,40 @@
                     Rules
                 </button>
                 <button type="button" class="btn btn-lg px-4 gap-3"><a href="facts.html">Animal facts!</a></button>
-                
 
-               
-<!-- Rules modal - adapted from bootstrap documentation -->
 
-<div class="modal fade modal-lg" id="rulesModal" tabindex="-1" aria-labelledby="rulesModalLabel"
-aria-hidden="true">
-<div class="modal-dialog">
-    <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title text-center w-100">Rules</h5>
-            <button type="button" class="btn-close text-center" data-bs-dismiss="modal"
-                aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-            The instructions to the game are as follows!
-            <ol id="rulesList">
-                <li>Click on two cards to flip them over</li>
-                <li>Continue doing this and try and remember which animals are where!</li>
-                <li>When you get a match the cards will stay turned over</li>
-                <li>The game finishes when you have found all of the pairs of animals</li>
-            </ol>
-                <p>Keep an eye on the timer, and the number of moves you make, and challenge yourself to do better next time</p>
-                <p>Feeling confident? Try the bonus level which is extra tricky! Complete the first level to gain access to this level</p>
-            
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn w-100"><a href="level1.html">Let's play!</a></button>
-        </div>
-    </div>
-</div>
-</div>
+
+                <!-- Rules modal - adapted from bootstrap documentation -->
+
+                <div class="modal fade modal-lg" id="rulesModal" tabindex="-1" aria-labelledby="rulesModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-center w-100">Rules</h5>
+                                <button type="button" class="btn-close text-center" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                The instructions to the game are as follows!
+                                <ol id="rulesList">
+                                    <li>Click on two cards to flip them over</li>
+                                    <li>Continue doing this and try and remember which animals are where!</li>
+                                    <li>When you get a match the cards will stay turned over</li>
+                                    <li>The game finishes when you have found all of the pairs of animals</li>
+                                </ol>
+                                <p>Keep an eye on the timer, and the number of moves you make, and challenge yourself to
+                                    do better next time</p>
+                                <p>Feeling confident? Try the bonus level which is extra tricky! Complete the first
+                                    level to gain access to this level</p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button id ="modalPlayButton" type="button" class="btn w-100"><a href="level1.html">Let's play!</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
             </div>
