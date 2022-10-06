@@ -128,9 +128,9 @@ const flipCard = card => {
                     <h1 class="font-1">You won!</h1>
                     <p>You used <span class="highlight">${state.totalFlips}</span> moves</p>
                     <p>and took <span class="highlight">${state.totalTime}</span> seconds</p>
-                    <button class="win-btn"><a href="level2.html">Brave enough for level 2?</a></button>
+                    <button class="win-btn game-btn"><a href="level2.html">Brave enough for level 2?</a></button>
                     <br>
-                    <button class="win-btn"><a href="level1.html">Practice more on level 1</a></button>
+                    <button class="win-btn game-btn"><a href="level1.html">Practice more on level 1</a></button>
                 </span>
             `
 
