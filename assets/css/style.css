@@ -5,13 +5,24 @@ body{
     background-image: url("../img/background1.jpg") !important;
     font-family: 'Quicksand', sans-serif !important;
 }
-#home-text {
+#homeText {
     color: #0A3621 !important;
+}
+
+.sub-head{
+    font-size: 2rem;
 }
 
 .btn {
     color: #0A3621 !important;
+    font-size: 1.75rem !important;
 }
+
+.btn:hover {
+    color: #459088 !important;
+    font-style: italic;
+}
+
 
 /*Font for headers*/
 .font-1{
@@ -28,8 +39,14 @@ li {
     list-style: none !important;
 }
 
+#modalSub {
+    font-size: 1.2rem !important;
+    font-weight:700 !important;
+}
+
 .modal-content {
     background-color: #c9e4ca !important;
+    font-size: 1rem !important;
 }
 
 .modal-title {
@@ -42,7 +59,7 @@ font-size: 50px !important;
 font-size: 40px !important;
 }
 
-#game-title {
+#gameTitle {
     text-align: center;
     font-size: larger;
     
@@ -62,7 +79,7 @@ font-size: 40px !important;
     margin-bottom: 20px;
 }
 
-#home-btn {
+#homeBtn {
     align-items: right;
 }
 
@@ -179,7 +196,7 @@ button {
     color: #282A3A;
 }
 
-#win-btn {
+.win-btn {
     background: #568c72;
     color: #fbfcf0 !important;
     border-radius: 5px;
@@ -230,7 +247,7 @@ button {
 
 /*********************************   Fact card page      *******************************************/
 
-#fact-title {
+#factTitle {
     text-align: center;
     font-size: larger;
     color: #0A3621 !important;
