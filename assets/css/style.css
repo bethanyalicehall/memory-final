@@ -61,7 +61,7 @@ font-size: 40px !important;
 
 #gameTitle {
     text-align: center;
-    font-size: larger;
+    font-size: 1.5rem !important;
     
 }
 /*Level 1*/
@@ -93,6 +93,11 @@ button {
     font-size: 15pt;
     cursor: pointer;
 
+}
+
+button:hover {
+    background-color: #459088 !important;
+    font-style: italic;
 }
 
 .disabled {
