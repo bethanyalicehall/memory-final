@@ -126,9 +126,8 @@ const flipCard = card => {
             selectors.win.innerHTML = `
                 <span class="win-text">
                     <h1 class="font-1">You won!</h1>
-                    <br/>
-                    You used <span class="highlight">${state.totalFlips}</span> moves<br />
-                    and took <span class="highlight">${state.totalTime}</span> seconds
+                    <p>You used <span class="highlight">${state.totalFlips}</span> moves</p>
+                    <p>and took <span class="highlight">${state.totalTime}</span> seconds</p>
                     <button class="win-btn"><a href="level2.html">Brave enough for level 2?</a></button>
                     <br>
                     <button class="win-btn"><a href="level1.html">Practice more on level 1</a></button>
