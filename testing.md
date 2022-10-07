@@ -162,7 +162,7 @@ I shared this project with a few family members and friends, some feedback I rec
 ## Identified bugs
 - Bug: When the screen size became smaller on certain devices, the emojis were positioned wrong on the cards and splilled over the edge of them.
     - How I fixed it: I altered the line height of the emoji and put this style into a media query for those specific screen sizes.
-
-
-
-- Unfixed bug - when first loading the page the pin drop icon that is part of the logo, it appears as text for a second before changing to the icon.
+- Bug: On smaller devices the winning text message was all mis-aligned. 
+    - How I ficed it: I removed the padding on the buttons for screen sizes below 800px
+- Bug: Initially I had a 6x6 grid for level 2, however this was spilling off the screen and I did not want to make the user have to scroll to see the full game board
+    - How I fixed it: I had initally implemented a rule in my code to only allow even numbers of columns however I removed this and created a 5x grid which fit much better on the screen.

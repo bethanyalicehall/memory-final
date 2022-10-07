@@ -58,7 +58,7 @@ The following questions were asked when developing a strategy...
 - How is the offering of this site different from competitors?
     - It provides a playful game element to the site, but also an educational side with the animal facts.
 
-From the above table, the focus for the strategy will be on the following:
+From the above questions, the focus for the strategy will be on the following:
 - Make the different options of the site accessible from the home page
 - Develop a game that all ages will enjoy
 - Increase return players back to the site, by providing stats and a more challenging level.
@@ -156,6 +156,7 @@ I used Google fonts for all of the fonts;
 Level 1 and level 2 feature game boards containing 12/20 cards respectivley, a timer, a moves counter, a button to start the timer and a link to the home page.
 - The timer goes up and stops when all the pairs have been found.
 - The moves counter increments each time a card is turned over.
+- The game boards are responsive to support use of different devices
 
 ### Win message
 When the player succesfully matches all of the cards on the board, the board flips over and a win message appears.
@@ -193,7 +194,6 @@ Maybe up to 5 levels would draw more players to return to the site, and it is a 
 
 #### Themed levels
 Each game level could have a different theme, grouping animals together, e.g jungle, underwater, farm etc.
-
 
 ---
 
