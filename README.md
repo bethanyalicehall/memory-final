@@ -2,7 +2,7 @@
 
 ![Mockup of home page on a Mac, Macbook, iPad, and iPhone](readme-img/mockup.png)
 
-[Link to live website](https://bethanyalicehall.github.io/memory-final/index.html)
+[Link to live website](https://bethanyalicehall.github.io/memory-final/)
 
 ---
 
