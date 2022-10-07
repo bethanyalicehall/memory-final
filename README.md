@@ -40,11 +40,11 @@ User experience
 
 #### As a returning user I want ...
 - The game to change each time so that there is a new order of cards each time.
-- To be able to see my stats each game, so I can challenge myself each time
+- To be able to see my stats while playing the game, so I can challenge myself each time
 - A website that is easy to use and works well on mobile, tablet, and desktop.
 
 #### As the business owner I want ...
--- To create a game that both children and adults can enjoy
+- To create a game that both children and adults can enjoy
 - To increase visits to the website, and gain returning users.
 
 ---
@@ -118,11 +118,11 @@ Changes made throughout development
 #### Colour
 
 ![Colour palette showing the following colours #FBFCF0 #C9E4CA #459088 #568C72 #0A3621](readme-img/palette.png)
-- #FFFFFF - the background colour for individual sections of the website and for some sections of text
-- #F5F5F5 - the overall background colour
-- #187795 - the form background colour
-- #3A716D - the background of the testimonial cards and the background colour for buttons when hovered
-- #0D0C1D - the text colour for most of the text throughout the website
+- #FBFCF0 - the background colour for the front of the game cards and the text within the fact cards
+- #C9E4CA - the game board background colour and colour of some buttons 
+- #459088 - the background colour of the backs of the playing cards, some of the fact cards and also the colour of the hover over the links
+- #568C72 - the background of some buttons and some of the fact cards
+- #0A3621 - the text colour for most of the text throughout the website
 
 I chose these colours as the green and blue colours reminded me of nature and I thought that linked quite well to the main focus which is animals. I didn't want anything too over the top so kept it quite muted, and then the emojis within the game brought more of a splash of colour. 
 
@@ -131,6 +131,8 @@ I chose these colours as the green and blue colours reminded me of nature and I 
 I chose carefully which images to include for the facts page. I thought each image had a slight comical aspect to it and certainly showed the character of the animals. I thought that the user would enjoy browsing through these images.
 
 For the Favicon I chose a frog image, as of course it is an animal and it fits well with the green theme throughout.
+
+The background image is a green textured image which reminded me of leaves, which I thought was quite apt
 
 Click [here](media-sources.md) to see details of images used throughout the site.
  
@@ -150,47 +152,47 @@ I used Google fonts for all of the fonts;
 
 ## Features
 
-### Responsiveness
-Bootstrap has been used throughout the website to allow for a responsive design, media queries were also used to aid this.
-- The navigation bar collapses into a hamburger icon on smaller devices
-- For the routes page when viewed on smaller devices, the carousel stacks on top of the text.
+### Game boards
+Level 1 and level 2 feature game boards containing 12/20 cards respectivley, a timer, a moves counter, a button to start the timer and a link to the home page.
+- The timer goes up and stops when all the pairs have been found.
+- The moves counter increments each time a card is turned over.
+
+### Win message
+When the player succesfully matches all of the cards on the board, the board flips over and a win message appears.
+- The stats for that game are displayed.
+- An option to play level 1 again or try level 2 are presented.
+
+### Fact Cards
+Interactive fact cards that have a high quality animal image on one side and the name of the animal and a fact on the other side, the user can click between each side to learn facts about each animal. The cards sit 3x4 on desktop but are responsive and shrink down to one column on most mobile devices.
+
+### Interactive links
+All of the links have added hover styling and the pointer changes to indicate that they are links to the user
 
 ### Accessibility
-- Alt attributes have been added to all images and the video
+- Alt attributes have been added to all images 
 - Text size, font and colour were considered in a way to hopefully provide clear, easy reading.
-- A grey background colour is behind the hero images so if the images were not to load, text would still be readable.
 - Wave was used to carry out testing which looked at accessibility, see [Testing](#testing) section. 
 
 ### Meta data
-Meta tags are included within the head element, including a description, the author and keywords. 
-
-### Navigation bar
-The navigation bar is composed of navigation links in the top left, which take you to the appropriate pages, and a logo in the top right. Each of the navigation links go a darker colour when active, and also when hovered over. On smaller devices the navigation links compress down into a hamburger icon which can be clicked on and the navigation links drop down. The logo can be clicked to take you back to the home page. The navigation bar is does not have a sticky top, as I did not want the navigation bar to reduce space for other content on the page when scrolling.
+Meta tags are included within the head element, including a description, the author and keywords, to improve search engine optimisation. 
 
 ### 404 error page 
-A custom 404 error page was made, including a link to redirect back to the home page.
-
-### Carousels
-Within the routes page, each route has a carousel displaying 3 images of locations featured within that route. Arrows appear when hovering over them to allow the user to select which image they want to view at any given time, the images are on a slideshow setting if the user does not interact with the carousel.
-
-### Form
-The form is located on the get in touch page, it includes fields for the user to input their personal details and details about their ideal trip. A radio button is included to indicate if they want just transport or transport and accommodation booking. There is a check box to indicate if a user wants to subscribe to the newsletter. A submit button is located at the bottom of the form. The form has an action of "get" and once submitted the user is taken to a page to confirm their submission and an option to go back to the home page.
-
-### Footer
-The footer includes a copyright, an arrow to click to take you back to the top of the page, and social media links. The links change colour when hovered over, to indicate that they can be clicked on.
+A custom 404 error page was added, including a link to redirect back to the home page.
 
 ### Future features to consider
 
-#### Map
-A map could be added to each route to show the exact location of each stop within the route
+#### Style change on correct match of cards
+As suggested in my feedback from family and friends, it could be a good feature to add to change the colours of the cards when a correct match is found, just to add some further interactivity to the game. This shouldn't be too complex to add in as there is already a function that checks if the two cards match, and makes the cards stay fixed and not flip back over. 
 
 
-#### Form 
-- Include a modal that appears once the form has been submitted, saying "Submission successful"
-- Include the user to only be allowed to choose dates within the future, not the past.
+#### A table to store your scores in
+To add to the competitive side to the game I think it would be good to add in a feature where you can input your name and then your score would be saved so you could play against others.
 
-#### Affiliate links
-Potential to have a separate page with backpacking essentials and affiliate links.
+#### Further levels of the game 
+Maybe up to 5 levels would draw more players to return to the site, and it is a way to add a more challenging element to the site.
+
+#### Themed levels
+Each game level could have a different theme, grouping animals together, e.g jungle, underwater, farm etc.
 
 
 ---

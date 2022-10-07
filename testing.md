@@ -75,6 +75,7 @@ I utilised [Wave](https://wave.webaim.org/) which is a web accessibility evaluat
 
 ### Functional testing
 
+#### Testing elements on each page 
 
 | Page | Element and expected action | Pass or Fail | 
 | ----------- | ----------- | ----------- |
@@ -138,31 +139,30 @@ The following browsers were used to check compatibility with the website
 ![Screenshot of game](readme-img/game-one.png)
 ![Screenshot of game](readme-img/game-two.png)
 
-- A website that is easy to use and works well on mobile, tablet, and desktop.
-    - The website has been fully tested and is responsive on all device sizes.
+- To be able to see my stats while playing the game, so I can challenge myself each time
+    - The game stats are available during the game and also once you have finished they will be displayed.
+
+![Screenshot of game](readme-img/stats.png)
+
 
 ### As the business owner I want ...
-- To increase awareness of the business.
-    - Key words have been included within the meta tags to allow for search engine optimisation.
-- To increase trip planning requests to allow the business to grow financially.
-    - There is an extra link on the home page taking the user directly to the form, to encourage requests.
+- To create a game that both children and adults can enjoy
+    - Friends and family aged 12-55 tried out the game and had fun.
 
-![Screenshot of link to take user to form](readme-img/user-letsgo.png)
+- To increase visits to the website, and gain returning users.
+    - As this is just a concept and not a properly published game site, this cannot be measured. However friends and family said they will be playing again and showing their friends too.
 
-- To increase the businesses social media presence.
-    - There is a dedicated section to the Routes of Europe Facebook group, as well social media links within the footer. 
-![Screenshot of connect section](readme-img/user-connect.png)
-![Screenshot of socials links within footer](readme-img/user-socials.png)
+
+### Feedback from friends and family
+I shared this project with a few family members and friends, some feedback I receieved -
+"I think the game is great, simple but still fun"
+"One thing you could add would be something to alert the user that their cards match - such as a colour change to the cards that have matched"
+"I think the colours and the font tie in well to the overall theme"
 
 ## Identified bugs
+- Bug: When the screen size became smaller on certain devices, the emojis were positioned wrong on the cards and splilled over the edge of them.
+    - How I fixed it: I altered the line height of the emoji and put this style into a media query for those specific screen sizes.
 
-- Bug: On the routes page I noticed that when clicking left or right on the second or third carousel it was controlling the first and not the one that was being clicked.
-    - How I fixed it: I realised that each carousel had the same id as I had copied and pasted without realising, once this was corrected the error was solved.
 
-- Bug: The text on the get in touch page, explaining the next steps, when viewed on a mobile device was slightly off centre to the right.
-    - How I fixed it: I changed the text from an unordered list with list items, to individual paragraphs, and this allowed the text to be aligned to the centre.
-
-- Bug: When viewed on smaller screen sizes the carousel images appeared unequal in size.
-    - How I fixed it: I used an image resizer to make sure images had the same dimensions.
 
 - Unfixed bug - when first loading the page the pin drop icon that is part of the logo, it appears as text for a second before changing to the icon.
