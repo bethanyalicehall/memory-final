@@ -43,7 +43,7 @@ User experience
 - To be able to see my stats while playing the game, so I can challenge myself each time
 - A website that is easy to use and works well on mobile, tablet, and desktop.
 
-#### As the business owner I want ...
+#### As the website owner I want ...
 - To create a game that both children and adults can enjoy
 - To increase visits to the website, and gain returning users.
 
@@ -137,7 +137,7 @@ The background image is a green textured image which reminded me of leaves, whic
 Click [here](media-sources.md) to see details of images used throughout the site.
  
 
-#### Typography and icons
+#### Typography 
 
 I used Google fonts for all of the fonts;
 
@@ -256,20 +256,20 @@ Click [here](media-sources.md) to see details of images used.
 
 ### Content
 - [Code institute boiler template](https://github.com/Code-Institute-Org/gitpod-full-template) was used.
-- Code was taken from bootstrap documentation and edited to suit this project for the rules modal on the home page 
-- Code with inspiration and help from the following
-    - [A designer who codes - Responsive background images with Bootstrap 5](https://www.youtube.com/watch?v=W87XNjvXiWw&t=18s) 
-    - [Traversy media - Bootstrap 5 video](https://www.youtube.com/watch?v=4sosXZsdy-s)
+- Code was taken from [bootstrap](https://getbootstrap.com/) documentation and edited to suit this project for the rules modal on the home page 
+- I used the tutorial from [webtips.dev](https://www.webtips.dev/memory-game-in-javascript) for the JS code for the memory game, I then adapted it slightly for my game, and created two levels. 
+- The rest of the code was written by the creator with inspiration and help from the following 
+    - [Travis Horn](https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41420fe) - referred to this when creating the layout of the animal fact cards.
     - [W3 Schools](https://www.w3schools.com/)
-    - [Code institute](https://codeinstitute.net/) projects, in particular the Love Running project.
-    - [cntraveller](https://www.cntraveller.com/gallery/happiest-countries-in-the-world) - information about the happiest countries in the world
-    - [The broke backpacker](https://www.thebrokebackpacker.com/backpacker-statistics/) - website used for statistics
+    - [Code institute](https://codeinstitute.net/) tutorials
+- Inforamtion about the animal facts was sourced from research from various websites including [WWF](https://www.wwf.org.uk/)
   
 
 ### Acknowledgements
 I would like to thank
 - Code institute tutors - particularly Sean, Ed, Rebecca, and Scott - they helped me out of some sticky situations!
 - Pasquale Fasulo my college supervisor.
+- Ferenc Almasi for writing the [webtips.dev article](https://www.webtips.dev/memory-game-in-javascript), this really helped me to understand how to put together the code for a memory game and the reasoning behind each function. 
 - The photographers who publish royalty free images on Unsplash and Raw Pixel that allowed me to use high quality imagery throughout.
 - All of the code institute team, for providing quality learning content to allow me to develop my skills to complete this project.
 

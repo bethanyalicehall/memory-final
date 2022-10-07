@@ -145,7 +145,7 @@ The following browsers were used to check compatibility with the website
 ![Screenshot of game](readme-img/stats.png)
 
 
-### As the business owner I want ...
+### As the website owner I want ...
 - To create a game that both children and adults can enjoy
     - Friends and family aged 12-55 tried out the game and had fun.
 
