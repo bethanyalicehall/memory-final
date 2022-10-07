@@ -51,9 +51,7 @@ const pickRandom = (array, items) => {
 }
 
 const generateGame = () => {
-    const dimensions = selectors.board.getAttribute('data-dimension')
-
-    
+    const dimensions = selectors.board.getAttributeById('data-dimension')
 
     const emojis = ['🐶', '🦦 ', '🐯', '🐘', '🐧', '🐒 ', '🦙', '🦒', '🐬', '🦜', '🦋', '🐢', '🦁', '🦧', '🦓', '🐠', '🦥', '🐝']
     const picks = pickRandom(emojis, (dimensions * 2)) 
