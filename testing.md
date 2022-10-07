@@ -4,19 +4,23 @@
 I inputted my HTML into the W3C Markup Validation service.
 
 ### Home page
-![Screenshot of HTML validation results for home page](readme-img/html-home.png)
+![Screenshot of HTML validation results for home page](readme-img/indexhtml.png)
 - For error 1, I replaced the name attribute with an id attribute.
 - For error 2, this was the only way I found in providing textual context to the background image as the image itself was within CSS. I removed this as the image is not providing any information to the user. 
 - For error 3 and 4 I changed the buttons to links.
 
-### Routes page
-![Screenshot of HTML validation results for route page](readme-img/html-routes.png)
+### Level 1
+![Screenshot of HTML validation results for route page](readme-img/level1html.png)
 - For error 1, I replaced the name attribute with an id attribute.
 - For error 2, this was the only way I found in providing textual context to the background image as the image itself was within CSS. I removed this as the image is not providing any information to the user. 
 - For error 3-6, I removed the id attributes as they were not needed, as there was already a class attribute.
 
-### Get in touch page
-![Screenshot of HTML validation results for get in touch page](readme-img/html-touch.png)
+### Level 2
+![Screenshot of HTML validation results for route page](readme-img/level2html.png)
+- 
+
+### Fun Facts
+![Screenshot of HTML validation results for get in touch page](readme-img/factshtml.png)
 
 - For error 1, I replaced the name attribute with an id attribute.
 - For error 2, this was the only way I found in providing textual context to the background image as the image itself was within CSS. I removed this as the image is not providing any information to the user. 
@@ -25,21 +29,16 @@ I inputted my HTML into the W3C Markup Validation service.
 I corrected each error and re-checked the HTML through the validator, and it passed.
 
 ## CSS validator
-I inputted code into the W3C validation service, initially this brought up two errors
-- Text-shadow format was not correct, I decided the text shadow of the text over the hero image was not necessary so removed that.
-- Font weight value was incorrect, I had used 200px instead of 200.
-- Once these errors were corrected no further errors were found.
+I inputted code into the W3C validation service, initially this brought up one error
+- I had inputted text-align: right; and it said that this was not a property for text-align, however this was left in by mistake so I took this out of the code which had no impact on my deployed site.
 
-![Screenshot of CSS validation results stating that no errors were found](readme-img/css-val.png)
+![Screenshot of CSS validation results stating that no errors were found](readme-img/css.png)
 
 
 ## Performance testing
 I utilised the [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) performance testing software.
 - The results of the lighthouse testing can be seen below for each page. 
-- On the first round of testing, the performance was quite low due to image size and bootstrap stylesheets slowing down the first paint of the page.
-- I reduced the size of the images and used [Tinypng](https://tinypng.com/) to compress the images. As you can see below, the doing this increased the performance significantly. 
-- The accessibility is good although not 100%, this will be looked into in more detail in the next section.
-- The search engine optimisation is good but slightly low due to the link to bring the user back up to the top of the page being uncrawlable. 
+- 
 ### Home page
 ![Screenshot of Lighthouse testing for home page](readme-img/home1.png)
 ![Screenshot of Lighthouse testing for home page](readme-img/2home.png)
