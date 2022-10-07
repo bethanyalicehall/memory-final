@@ -20,5 +20,6 @@ body {
   }
 
   span {
-    font-family: 'Londrina Shadow', cursive !important;;
+    font-family: 'Londrina Shadow', cursive !important;
+    font-size: larger;
   }
