@@ -268,7 +268,7 @@ Click [here](media-sources.md) to see details of images used.
 
 ### Acknowledgements
 I would like to thank
-- Code institute tutors - particularly Sean, Ed and Rebecca - they helped me out of some sticky situations!
+- Code institute tutors - particularly Sean, Ed, Rebecca, and Scott - they helped me out of some sticky situations!
 - Pasquale Fasulo my college supervisor.
 - The photographers who publish royalty free images on Unsplash and Raw Pixel that allowed me to use high quality imagery throughout.
 - All of the code institute team, for providing quality learning content to allow me to develop my skills to complete this project.

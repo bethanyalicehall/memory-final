@@ -243,7 +243,7 @@ button {
 .game2 {
     position: absolute;
     top: 25%;
-    left: 40%;
+    left: 45%;
     transform: translate(-50%, -50%);
 }
 
@@ -252,7 +252,7 @@ button {
     text-align: center;
     font-size: 1.5rem !important;
     position: absolute;
-    left: 20%;
+    left: 25%;
 }
 
 #gameTitle {
@@ -299,8 +299,7 @@ button {
 
     .game {
         position: absolute;
-        top: 40%;
-        left: 45%;
+        
         transform: translate(-50%, -50%);
     }
 }
@@ -314,7 +313,7 @@ button {
     width: 100%;
     height: 100%;
     text-align: center;
-    background: #0e1594;
+    background: #c9e4ca;
     transform: rotateY(180deg) rotateZ(50deg);
 }
 
@@ -348,7 +347,7 @@ button {
         width: 100%;
         height: 100%;
         text-align: center;
-        background: #953f0d;
+        background: #c9e4ca;
         transform: rotateY(180deg) rotateZ(50deg);
     }
     
