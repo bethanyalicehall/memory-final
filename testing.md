@@ -40,18 +40,20 @@ I utilised the [Lighthouse](https://developer.chrome.com/docs/lighthouse/overvie
 - The results of the lighthouse testing can be seen below for each page. 
 - 
 ### Home page
-![Screenshot of Lighthouse testing for home page](readme-img/home1.png)
-![Screenshot of Lighthouse testing for home page](readme-img/2home.png)
+![Screenshot of Lighthouse testing for home page](readme-img/index1.png)
 
 
-### Routes page
+
+### Level 1 page
 ![Screenshot of Lighthouse testing for routes page](readme-img/routes1.png)
-![Screenshot of Lighthouse testing for routes page](readme-img/2routes.png)
+
+### Level 2 page
+![Screenshot of Lighthouse testing for routes page](readme-img/routes1.png)
 
 
-### Get in touch page
+### Fun Facts page
 ![Screenshot of Lighthouse testing for get in touch page](readme-img/touch1.png)
-![Screenshot of Lighthouse testing for get in touch page](readme-img/2touch.png)
+
 
 
 ## Accessibility testing
