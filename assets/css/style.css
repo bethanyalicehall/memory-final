@@ -1,15 +1,15 @@
-
-body{
+body {
     width: 100%;
     height: 100%;
     background-image: url("../img/background1.jpg") !important;
     font-family: 'Quicksand', sans-serif !important;
 }
+
 #homeText {
     color: #0A3621 !important;
 }
 
-.sub-head{
+.sub-head {
     font-size: 2rem;
 }
 
@@ -25,9 +25,9 @@ body{
 
 
 /*Font for headers*/
-.font-1{
+.font-1 {
     font-family: 'Londrina Shadow', cursive !important;
-  }
+}
 
 /*Removes the blue underlined styling in the links*/
 a {
@@ -35,13 +35,14 @@ a {
     color: inherit !important;
 }
 
+/*Rules modal*/
 li {
     list-style: none !important;
 }
 
 #modalSub {
     font-size: 1.2rem !important;
-    font-weight:700 !important;
+    font-weight: 700 !important;
 }
 
 .modal-content {
@@ -51,25 +52,27 @@ li {
 
 .modal-title {
     font-family: 'Londrina Shadow', cursive !important;
-font-size: 50px !important;
+    font-size: 50px !important;
 }
 
 #modalPlayButton {
     font-family: 'Londrina Shadow', cursive !important;
-font-size: 40px !important;
+    font-size: 40px !important;
 }
 
+/*Level 1 and 2*/
 #gameTitle {
     text-align: center;
     font-size: 1.5rem !important;
-    
+
 }
+
 #gameTitle2 {
     text-align: center;
     font-size: 1.5rem !important;
-    
+
 }
-/*Level 1*/
+
 /*Positioning the main game area*/
 .game {
     position: absolute;
@@ -91,8 +94,6 @@ font-size: 40px !important;
     margin-bottom: 20px;
 }
 
-
-
 button {
     background: #c9e4ca;
     color: #0A3621 !important;
@@ -102,7 +103,6 @@ button {
     cursor: pointer;
     font-size: 15pt;
     cursor: pointer;
-
 }
 
 .game-btn:hover {
@@ -116,7 +116,6 @@ button {
 
 .board-container {
     position: relative;
-   
 }
 
 .board,
@@ -127,6 +126,7 @@ button {
     transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
     backface-visibility: hidden;
 }
+
 .board {
     padding: 20px;
     display: grid;
@@ -136,11 +136,8 @@ button {
 
 .board2 {
     padding: 20px !important;
-   
     grid-gap: 0px !important;
 }
-
-
 
 .board-container.flipped .board {
     transform: rotateY(180deg) rotateZ(50deg);
@@ -150,13 +147,10 @@ button {
     transform: rotateY(0) rotateZ(0);
 }
 
-
-
 .card {
     position: relative;
     width: 100px;
     height: 100px;
-    
     cursor: pointer;
 }
 
@@ -166,7 +160,7 @@ button {
     border-radius: 5px;
     width: 100%;
     height: 100%;
-    background: #459088; 
+    background: #459088;
     transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
     backface-visibility: hidden;
 }
@@ -187,10 +181,7 @@ button {
 .card.flipped .card-back {
     transform: rotateY(0) rotateZ(0);
 }
-
-
-
-
+/*Text that appears when player wins*/
 .win {
     position: absolute;
     top: 0;
@@ -227,49 +218,86 @@ button {
     color: #459088;
 }
 
+/* Media queries*/
+
+/*Tablet devices*/
 @media screen and (max-width: 800px) {
     .card {
         height: 70px;
         width: 70px;
     }
-.card-back{
-    transform: rotateY(180deg) rotateZ(50deg);
-    font-size: 28pt;
-    user-select: none;
-    text-align: center;
-    line-height: 75px;
-    background: #FDF8E6;
-}
-.game2 {
-    position: absolute;
-    top: 25%;
-    left: 45%;
-    transform: translate(-50%, -50%);
-}
+
+    .card-back {
+        transform: rotateY(180deg) rotateZ(50deg);
+        font-size: 28pt;
+        user-select: none;
+        text-align: center;
+        line-height: 75px;
+        background: #FDF8E6;
+    }
+
+    .game2 {
+        position: absolute;
+        top: 25%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+    }
 
 
-#gameTitle2 {
-    text-align: center;
-    font-size: 1.5rem !important;
-    position: absolute;
-    left: 25%;
-}
+    #gameTitle2 {
+        text-align: center;
+        font-size: 1.5rem !important;
+        position: absolute;
+        left: 25%;
+    }
 
-#gameTitle {
-    text-align: center;
-    font-size: 1.5rem !important;
-    position: absolute;
-    left: 27%;
-}
-}
+    #gameTitle {
+        text-align: center;
+        font-size: 1.5rem !important;
+        position: absolute;
+        left: 27%;
+    }
 
+    .win {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background: #c9e4ca;
+        transform: rotateY(180deg) rotateZ(50deg);
+    }
+
+    .win-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 21pt;
+        color: #282A3A;
+    }
+
+    .win-btn {
+        background: #568c72;
+        color: #fbfcf0 !important;
+        border-radius: 5px;
+        padding: 10px 20px;
+        border: 0;
+        cursor: pointer;
+        font-size: 15pt;
+        cursor: pointer;
+        margin: 10px;
+    }
+}
+/*Mobile devices*/
 @media screen and (max-width: 600px) {
     .card {
         height: 50px;
         width: 50px;
     }
 
-    .card-back{
+    .card-back {
         transform: rotateY(180deg) rotateZ(50deg);
         font-size: 28pt;
         user-select: none;
@@ -284,12 +312,14 @@ button {
         left: 50%;
         transform: translate(-50%, -50%);
     }
+
     #gameTitle2 {
         text-align: center;
         font-size: 1.25rem !important;
         position: absolute;
         left: 25%;
     }
+
     #gameTitle {
         text-align: center;
         font-size: 1.5rem !important;
@@ -299,47 +329,8 @@ button {
 
     .game {
         position: absolute;
-        
         transform: translate(-50%, -50%);
     }
-}
-
-
-@media screen and (max-width: 800px) {
-.win {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    background: #c9e4ca;
-    transform: rotateY(180deg) rotateZ(50deg);
-}
-
-.win-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 21pt;
-    color: #282A3A;
-}
-
-.win-btn {
-    background: #568c72;
-    color: #fbfcf0 !important;
-    border-radius: 5px;
-    padding: 10px 20px;
-    border: 0;
-    cursor: pointer;
-    font-size: 15pt;
-    cursor: pointer;
-    margin: 10px;
-}
-}
-
-@media screen and (max-width: 600px) {
     .win {
         position: absolute;
         top: 0;
@@ -350,7 +341,7 @@ button {
         background: #c9e4ca;
         transform: rotateY(180deg) rotateZ(50deg);
     }
-    
+
     .win-text {
         position: absolute;
         top: 50%;
@@ -359,6 +350,7 @@ button {
         font-size: 15pt;
         color: #282A3A;
     }
+
     .stats-text {
         font-size: 10pt !important;
     }
@@ -374,7 +366,7 @@ button {
         cursor: pointer;
         margin: 2px;
     }
-    }
+}
 
 /*********************************   Fact card page      *******************************************/
 
@@ -382,9 +374,8 @@ button {
     text-align: center;
     font-size: larger;
     color: #0A3621 !important;
-    
-
 }
+
 .fact-grid {
     width: 1000px;
     height: 1000px;
@@ -396,23 +387,21 @@ button {
     perspective: 1000px;
 }
 
-  .fact-card {
+.fact-card {
     width: 100%;
     height: 100%;
     margin: 5px;
     position: relative;
-    /*box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);*/
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .5s;
     cursor: pointer;
-
 }
 
 .fact-card:active {
     transform: scale(0.97);
     transition: transform .2s;
-  }
+}
 
 .fact-front,
 .fact-back {
@@ -421,7 +410,7 @@ button {
     position: absolute;
     border-radius: 5px;
     backface-visibility: hidden;
-   
+
 }
 
 #alpaca {
@@ -431,24 +420,31 @@ button {
 #dolphin {
     background-color: #459088;
 }
+
 #capybara {
     background-color: #568c72;
 }
+
 #orangutan {
     background-color: #459088;
 }
+
 #panda {
     background-color: #568c72;
 }
+
 #penguin {
     background-color: #459088;
 }
+
 #sloth {
     background-color: #568c72;
 }
+
 #otter {
     background-color: #459088;
 }
+
 #starfish {
     background-color: #568c72;
 }
@@ -467,36 +463,39 @@ button {
 
 .fact-card.flip {
     transform: rotateY(180deg);
-  }
+}
 
-  .fact-back{
+.fact-back {
     transform: rotateY(180deg);
-  }
+}
 
-  .cardf {
+.cardf {
     color: #fbfcf0;
     height: 20rem;
     width: 20rem;
     margin: auto;
+}
 
-
-  }
-  .cardsf {
+.cardsf {
     max-width: 1200px;
     align-items: center;
     justify-content: center;
-    display:grid;
+    display: grid;
     gap: 1rem;
     margin: auto;
-  }
+}
 
-  @media (min-width: 600px) {
-    .cardsf { grid-template-columns: repeat(2, 1fr); }
-  }
+/* Media queries */
 
-  @media (min-width: 900px) {
-    .cardsf { grid-template-columns: repeat(3, 1fr); }
-  }
-  
-
-  
+/* Mobile device */
+@media (min-width: 600px) {
+    .cardsf {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+/*T ablet devic e*/
+@media (min-width: 900px) {
+    .cardsf {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
