@@ -1,8 +1,8 @@
 # Media Sources
 
 ## Images
-- [Background Image](https://www.rawpixel.com/image/2288877/free-illustration-image-background-green-ombre-watercolor) - @Ning - Raw Pixel
-- [Favicon Frog Image](https://favicon.io/emoji-favicons/frog/) - Emoji Favicons>Frog - Favicon.io 
+- [Background Image](https://www.rawpixel.com/image/2288877/free-illustration-image-background-green-ombre-watercolor) @Ning - Raw Pixel
+- [Favicon Frog Image](https://favicon.io/emoji-favicons/frog/) Emoji Favicons>Frog - Favicon.io 
 - [Alpaca image](https://unsplash.com/photos/Hc9G7owDs1s) @veverkolog - Unsplash
 - [Dolphin image](https://unsplash.com/photos/K6kZKJOmZrk) @aberkecz - Unsplash
 - [Capybara image](https://unsplash.com/photos/2EmW_HIy6Ns) @pic_parlance - Unsplash
@@ -16,6 +16,8 @@
 - [Parrot image](https://unsplash.com/photos/aeNg4YA41P8) @kevinmueller - Unsplash
 - [Koala image](https://unsplash.com/photos/4xNDhf0nA-Y) @ellicia_ - Unsplash
 
+## Emojis 
+- I sourced animal emojis for the playing cards from [Emojipedia.org](https://emojipedia.org/)
 
 
 
