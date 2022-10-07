@@ -1,32 +1,9 @@
 # Testing
 
 ## HTML validator
-I inputted my HTML into the W3C Markup Validation service.
+I inputted my HTML into the W3C Markup Validation service. I put each page through this, and the only error that appeared was that links shouldn't be used inside button elements. I removed these on the home page as they were not necessary to be buttons. Within the game I did leave them as they linked to some of the JS and it would have been a bit complicated. However I will try to take this information forward with me.
 
-### Home page
-![Screenshot of HTML validation results for home page](readme-img/indexhtml.png)
-- For error 1, I replaced the name attribute with an id attribute.
-- For error 2, this was the only way I found in providing textual context to the background image as the image itself was within CSS. I removed this as the image is not providing any information to the user. 
-- For error 3 and 4 I changed the buttons to links.
-
-### Level 1
-![Screenshot of HTML validation results for route page](readme-img/level1html.png)
-- For error 1, I replaced the name attribute with an id attribute.
-- For error 2, this was the only way I found in providing textual context to the background image as the image itself was within CSS. I removed this as the image is not providing any information to the user. 
-- For error 3-6, I removed the id attributes as they were not needed, as there was already a class attribute.
-
-### Level 2
-![Screenshot of HTML validation results for route page](readme-img/level2html.png)
-- 
-
-### Fun Facts
-![Screenshot of HTML validation results for get in touch page](readme-img/factshtml.png)
-
-- For error 1, I replaced the name attribute with an id attribute.
-- For error 2, this was the only way I found in providing textual context to the background image as the image itself was within CSS. I removed this as the image is not providing any information to the user. 
-- For error 3 and 4 I removed the br elements within the unordered list.
-
-I corrected each error and re-checked the HTML through the validator, and it passed.
+![Screenshot of HTML validation results](readme-img/factshtml.png)
 
 ## CSS validator
 I inputted code into the W3C validation service, initially this brought up one error
@@ -45,19 +22,24 @@ Some warnings which I did not act upon in this instance, as they did not directl
 
 I also put my code through [JSHint](https://jshint.com/).
 This gave some information of the following metrics.
-![Screenshot of metrics from JSHint]()
+
+![Screenshot of metrics from JSHint](readme-img/metrics.png)
+
 This brought up some warnings however again as they did not directly impact the functioning of the site or cause a console error, I will take forward these points in my learning.
-![]()
+
+![Warning 1](readme-img/warning1.png)
+![Warning 2](readme-img/warning2.png)
+![Warning 3](readme-img/warning3.png)
+![Warning 4](readme-img/warning4.png)
+
 
 
 ## Performance testing
 I utilised the [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) performance testing software.
 - The results of the lighthouse testing can be seen below for each page. 
-- 
+
 ### Home page
 ![Screenshot of Lighthouse testing for home page](readme-img/index-1.png)
-
-
 
 ### Level 1 page
 ![Screenshot of Lighthouse testing for routes page](readme-img/level1-1.png)
@@ -65,11 +47,8 @@ I utilised the [Lighthouse](https://developer.chrome.com/docs/lighthouse/overvie
 ### Level 2 page
 ![Screenshot of Lighthouse testing for routes page](readme-img/level2-1.png)
 
-
 ### Fun Facts page
 ![Screenshot of Lighthouse testing for get in touch page](readme-img/facts-1.png)
-
-
 
 ## Accessibility testing
 I utilised [Wave](https://wave.webaim.org/) which is a web accessibility evaluation tool.
@@ -96,7 +75,6 @@ I utilised [Wave](https://wave.webaim.org/) which is a web accessibility evaluat
 
 ### Functional testing
 
-Each of the following tests were carried out on a Macbook Air and an iPhone 12 pro.
 
 | Page | Element and expected action | Pass or Fail | 
 | ----------- | ----------- | ----------- |
@@ -137,25 +115,28 @@ The following browsers were used to check compatibility with the website
 ## Testing User Stories
 
 ### As a new user I want ...
-- The purpose of the website to be clear.
-    - The first section of text underneath the hero image explains what the company is all about
+- A fun, colourful, quick game
+    - Obviously 'fun' is subjective however friends and family who have tested it have enjoyed it, and I have had fun playing it myself! THe game is colourful, with a green and blue theme throughout and bright coloured cartoon emojis.
 
-![Screenshot of who we are section](readme-img/user-about.png)
+![Screenshot of game board](readme-img/full-game-board.png)
 
-- To easily navigate the website, to learn more about travelling around Europe.
-    - Clear navigation bar that links to route page with information about where you can travel in Europe.
+- To learn how to play quickly, with straightforward, clear rules
+    - Easily accessible rules from the home page, that are concise and logical.
 
-![Screenshot of navigation bar](readme-img/user-nav.png)
+![Screenshot of rules](readme-img/rules.png)
 
-- To find readily available information about the business and have clear contact options if I want to find out more.
-    - There is a form to get in touch and social media links within the footer
+- To learn interesting facts about a wide range of animals.
+    - There are 12 different animals on the facts page from all over the world and from different habitats. Each fact is fun and a bit unusual which makes that animal quite unique.
+
+![Screenshot of facts](readme-img/user-facts.png)
+
 
 ### As a returning user I want ...
-- Inspiring imagery and information to give me ideas for my next trip I will book through the website.
-    - Hero images are eye catching and the route cards contain short but interesting sections of information alongside a carousel of images.
+- The game to change each time so that there is a new order of cards each time.
+    - The game has lots of possibilities, there are 18 pairs of animal emojis which can be featured in the game, and within JavaScript Math.random was used to allow a different selection from the array of emojis to be used each time, so that the pairs locations and animals change each game.
 
-![Screenshot of hero section](readme-img/user-hero.png)
-![Screenshot of Brilliant Balkans route card](readme-img/user-route.png)
+![Screenshot of game](readme-img/game-one.png)
+![Screenshot of game](readme-img/game-two.png)
 
 - A website that is easy to use and works well on mobile, tablet, and desktop.
     - The website has been fully tested and is responsive on all device sizes.

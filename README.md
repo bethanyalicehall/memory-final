@@ -9,7 +9,7 @@
 ## About
 **Milestone 2 project - Interactive Frontend Development - Code institute**
 
-Creature Corner is a website for animal lovers, incorporating a memory matching game and some interactive fact cards.
+Creature Corner is a website for animal lovers, incorporating a memory matching game and some interactive fun fact cards.
 
 ---
 
@@ -40,6 +40,7 @@ User experience
 
 #### As a returning user I want ...
 - The game to change each time so that there is a new order of cards each time.
+- To be able to see my stats each game, so I can challenge myself each time
 - A website that is easy to use and works well on mobile, tablet, and desktop.
 
 #### As the business owner I want ...
@@ -51,65 +52,45 @@ User experience
 ### Strategy
 The following questions were asked when developing a strategy...
 - Who is the target audience, and is it culturally appropriate?
-    - The target audience is anyone who wants to travel Europe, from research 2/3 of backpackers are aged 20-25 years old. 
+    - The target audience is anyone who is interested in animals! For the game young children could play along with help from their parents/guardians, older children and adults will enjoy the game too! The facts page is more suitable for anyone who is able to read and wants to learn some unusual facts.
 - Is the technology appropriate for the user and the purpose of the website?
-    - The strategy for the technology is simplicity, there is no need for any complex technology for the purpose of this website.
+    - The strategy for the technology is simplicity, so that the game can be used by all ages and players will want to return to the site
 - How is the offering of this site different from competitors?
-    - From carrying out a competitor review, most other sites either only provide route ideas and not the ability to book, or they allow you to book set routes and do not have the option to create custom routes to meet individual requests/needs.
-
-Following on from this a list of opportunities were put together. Each opportunity was then rated on a scale of 1-5 in two dimensions.
-1. Importance
-    - How crucial is it this opportunity?
-2. Viability/Feasibility
-    - How realistic is implementing this opportunity?
-
-| Opportunity | Importance  | Viability/Feasibility | 
-| ----------- | ----------- | ----------- |
-| Increase booking requests through the form.| 5 | 4 |
-| Increase returning users| 5 | 5 |
-| Increase members of Routes of Europe Facebook group.| 3 | 5 |
-| Gain a larger social media following.| 2 | 3 |
-| Develop relationships with travel brands to gain affiliate links.| 3 | 2 |
+    - It provides a playful game element to the site, but also an educational side with the animal facts.
 
 From the above table, the focus for the strategy will be on the following:
-- Increase booking requests through the form.
-- Increase returning users
-- Increase members of Routes of Europe Facebook group.
+- Make the different options of the site accessible from the home page
+- Develop a game that all ages will enjoy
+- Increase return players back to the site, by providing stats and a more challenging level.
 
 ---
 
 ### Scope
 The scope of this website is to provide...
-- simple and straightforward navigation
-- clear and concise content alongside large imagery
-- information about the service the business offers
-- links to social media, in particular the Routes of Europe Facebook group.
-- inspirational route ideas
-- testimonials from previous users/customers
-- a form to allow users to get in touch to put in a booking request.
+- Straightforward navigation around the site
+- Interesting and factually correct information about a variety of animals
+- A simple yet entertaining memory card game, featuring animals
+- Clear rules for the game provided on the home page prior to playing the game
 
 ---
 
 ### Structure
 The website is organised by a hierarchical tree structure. This is a standard structure used commonly, and it reduces complexity. This structure can sometimes provide problems in regards to the navigation bar when displayed on mobile devices, however including the burger toggle bar, solves this.
 
-It is made up of 3 pages
-- A home page - introducing the business, testimonials from customers and information about connecting with other travellers
-- A routes page - three route options to inspire users for their trip
-- A get in touch page - information about next steps if a user is interested in using the trip planning service, and a form for them to fill out to provide information about their ideal trip.
-
-Components that are used across each page (and are consistent throughout)
-- Navigation bar - conventional navigation elements displayed horizontally along the top of the page.
-- Hero image - eye-catching image with a short caption of text overlayed on top, underneath the navigation bar of each page. There is enough content visible underneath each hero image, to entice the user to scroll down.
-- Footer - copyright information, social media links with conventional logo icons, and an up arrow with a link to bring you back to the top of the page.
+It is made up of 4 pages
+- A home page - introducing the name of the site, a link to the rules, as well as a link to the game and the facts page.
+- Two games pages
+    - Level 1 - A 3x4 grid of cards and a timer and move counter above the board
+    - Level 2 - A 5x4 grid of cards and a timer and move counter above the board
+- A fact page - A grid of 12 cards each featuring an image of a different animal and on the flip side of this card is the name of the animal and a fact
 
 ---
 
 ### Skeleton
 
-- Each page has a statement hero image and a short heading, beneath this part of the further text on the page is visible to attract the user to keep reading, and scroll down the page
+- Each page features the website name "Creature Corner" at the top centre of the page
 - I considered the responsive layout and how it would be viewed on tablet and mobile devices as well as on desktop. 
-- Padding and margins were used throughout to ensure that the content does not appear cluttered.
+- Padding and margins were used throughout to ensure that the content sits centrally and everything is separated appropriately
 
 #### Wireframes
 
@@ -126,15 +107,9 @@ The original wireframes differ slightly to the final layout of the website, this
 <br clear="both"/>
 
 Changes made throughout development
-- Initially I was considering having an extra page of "Top tips" however I decided this was not needed, but could be implemented in future updates.
-- The text over each hero image was changed to a shorter, snappier tag-line and buttons were not added.
-- An image was added to the who we are section.
-- The testimonials do not have images, they were kept simple and clean by using cards.
-- An image was added to the connect section.
-- The layout of each route section was slightly altered to be more responsive on smaller devices.
-- The get in touch page was stripped down of text, as it appeared too cluttered.
-
-I did not produce wireframes for mobile and tablet, although I did have the vision in my head that horizontal items would stack vertically on top of each other.
+- Initially I had planned to have an image on the back of the cards in the game however I thought to make it clear as to when they were flipped over or not it was better to have a bold colour instead.
+- I had planned to have the timer below the game board however due to scaling this would mean it may be off screen and not visible so I changed that to sit above the board.
+- I added an extra row of three fact cards
 
 ---
 
@@ -149,45 +124,27 @@ I did not produce wireframes for mobile and tablet, although I did have the visi
 - #3A716D - the background of the testimonial cards and the background colour for buttons when hovered
 - #0D0C1D - the text colour for most of the text throughout the website
 
-I chose these colours as I wanted a clean, minimalistic look, but still with splashes of colour here and there. The reason I went for this was to keep the focus on the text and imagery.
+I chose these colours as the green and blue colours reminded me of nature and I thought that linked quite well to the main focus which is animals. I didn't want anything too over the top so kept it quite muted, and then the emojis within the game brought more of a splash of colour. 
 
 #### Imagery
 
-It was hard to stick to a colour scheme within the imagery as the content of the images was incredibly varied. However I think as my main colour scheme of the website is quite minimal, the varying coloured images work quite well. Each image is clear and of good size, they are responsive for differing sizes of devices.
+I chose carefully which images to include for the facts page. I thought each image had a slight comical aspect to it and certainly showed the character of the animals. I thought that the user would enjoy browsing through these images.
 
-Click [here](media-sources.md) to see details of images and video used throughout the site
+For the Favicon I chose a frog image, as of course it is an animal and it fits well with the green theme throughout.
 
-- Hero images 
-    - I chose bold and scenic images for each hero image. The Amalfi coast, Bruges, and Amsterdam. On each I included a black colour overlay to mute it slightly. I chose images from the same photographer, to keep within a theme.
-
-- Carousel images
-    - For each route option there are three images within the carousel. I tried to choose images that gave a taste of the countries included on the route, that may entice the user into booking a trip.
-
-- Other imagery 
-    - I included two further images on the home page, each of these include people, the train featured in both appears similar to try and provide some continuity of theming. 
+Click [here](media-sources.md) to see details of images used throughout the site.
  
 
 #### Typography and icons
 
 I used Google fonts for all of the fonts;
 
-- Roboto - regular 400
-    - This was the main text used throughout, applied to the body. This is a easy-read font that fits well into the theming of the website.
+- 'Londrina Shadow' - cursive 
+    - This was the font used for the main title and other sections of text I wanted to stand out. Again I thought this font had character and was quite fun, so works well on the themes of animals/games.
 
-- Roboto 'Mono' - extralight 200
-    - This was used for the testimonial cards, to differentiate them from the main body of text.
+- 'Quicksand', sans-serif 
+    - This was used as the main font throughout the site within the body
 
-- Roboto-flex - thin 100
-    - This was used for the location names and also for the form.
-
-- Lobster, Special Elite, Skranji - regular 400
-    - These were used for the Route titles, I chose each one to be different and to stand out to add something extra to the route cards.
-
-For the logo, I added an icon to the text from Google fonts, this icon is called "Pin-drop". I added a grow animation to the logo when hovered, just to make it stand out more from the navigation links. A text-shadow was also added to make it stand out.
-
-For the text overlaying the hero image, I included a grow animation when the page loads, to add some movement to the website, and make it more inviting.
-
-Font awesome was used for all of the social media icons in the footer. Font awesome icons were also used as food icons within the route cards.
 
 ---
 
@@ -275,7 +232,7 @@ Click [here](testing.md) to view all testing carried out.
 
 ### Steps taken to deploy project to GitHub Pages
 1. Go to **My repositories**.
-2. Select **bethanyalicehall/route-of-europe-MS1**.
+2. Select **bethanyalicehall/memory-final**.
 3. At the top of the page click on **Settings**.
 4. Scroll down and on the left hand side there is a **Pages** section.
 5. Under **Source** click the drop down menu and select **Main**.
@@ -283,7 +240,7 @@ Click [here](testing.md) to view all testing carried out.
 
 ### Access to code
 1. Go to **My repositories**.
-2. Select **bethanyalicehall/route-of-europe-MS1**.
+2. Select **bethanyalicehall/memory-final**.
 3. At the top of the page click on **Code**, where **Zip files** can be downloaded locally.
 
 ---
@@ -291,11 +248,14 @@ Click [here](testing.md) to view all testing carried out.
 ## Credits 
 
 ### Media
-- [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/) - click [here](media-sources.md) to see details of images and video used throughout the site
+- [Unsplash](https://unsplash.com/) - this was used for the images of animals for the fact cards
+- [Raw Pixel](https://www.rawpixel.com/) - The background image was sourced from this site
+Click [here](media-sources.md) to see details of images used.
 
 ### Content
 - [Code institute boiler template](https://github.com/Code-Institute-Org/gitpod-full-template) was used.
-- Code was taken from bootstrap documentation and altered slightly or written myself with inspiration and help from the following
+- Code was taken from bootstrap documentation and edited to suit this project for the rules modal on the home page 
+- Code with inspiration and help from the following
     - [A designer who codes - Responsive background images with Bootstrap 5](https://www.youtube.com/watch?v=W87XNjvXiWw&t=18s) 
     - [Traversy media - Bootstrap 5 video](https://www.youtube.com/watch?v=4sosXZsdy-s)
     - [W3 Schools](https://www.w3schools.com/)
@@ -306,9 +266,9 @@ Click [here](testing.md) to view all testing carried out.
 
 ### Acknowledgements
 I would like to thank
-- My mentor, Brian Macharia for guidance throughout the process.
-- Pasquale Fasulo for running sessions to help me feel prepared for the project.
-- The photographers who publish royalty free images on Pexels and Unsplash that allowed me to use high quality imagery throughout.
+- Code institute tutors - particularly Sean, Ed and Rebecca - they helped me out of some sticky situations!
+- Pasquale Fasulo my college supervisor.
+- The photographers who publish royalty free images on Unsplash and Raw Pixel that allowed me to use high quality imagery throughout.
 - All of the code institute team, for providing quality learning content to allow me to develop my skills to complete this project.
 
 ---
