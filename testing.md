@@ -34,6 +34,21 @@ I inputted code into the W3C validation service, initially this brought up one e
 
 ![Screenshot of CSS validation results stating that no errors were found](readme-img/css.png)
 
+## JS validator
+
+I used [JS Lint](https://www.jslint.com) to review my JavaScript code.
+- The first error which appeared quite a bit through my code was the use of single quotes instead of double quotes, so I changed those.
+- I had missed off a few semi-colons at the end of and within functions - i corrected these.
+Some warnings which I did not act upon in this instance, as they did not directly impact the functioning of the website or cause any console errors. However I will make a note of these for my learning going forward
+- A few errors came up that certain lines were longer than 80 characters
+- Advice to use function rather than => when there are longer functions
+
+I also put my code through [JSHint](https://jshint.com/).
+This gave some information of the following metrics.
+![Screenshot of metrics from JSHint]()
+This brought up some warnings however again as they did not directly impact the functioning of the site or cause a console error, I will take forward these points in my learning.
+![]()
+
 
 ## Performance testing
 I utilised the [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) performance testing software.

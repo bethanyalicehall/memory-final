@@ -166,9 +166,6 @@ Click [here](media-sources.md) to see details of images and video used throughou
 - Other imagery 
     - I included two further images on the home page, each of these include people, the train featured in both appears similar to try and provide some continuity of theming. 
  
-#### Video 
-
-I included a simple video of a view from a train window, on the get in touch page. The video does not add much in regards to content but rather provides aesthetic adding to the theme of travelling Europe by rail.
 
 #### Typography and icons
 
@@ -246,6 +243,7 @@ Potential to have a separate page with backpacking essentials and affiliate link
 ### Languages
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - a markup language used for presenting and structuring content.
 - [CSS3](https://en.wikipedia.org/wiki/CSS) - stylesheet language for adding style.
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - language used to created dynamic and interactive programmes
 
 ### Programs and websites
 - [GitHub](https://github.com/) - to host the repository, and then deploy to GitHub pages.
@@ -255,16 +253,16 @@ Potential to have a separate page with backpacking essentials and affiliate link
 - [Techsini](https://techsini.com/multi-mockup/index.php) - used to create the multi device mockup.
 - [W3C HTML Validation service](https://validator.w3.org/) - used to validate HTML
 - [W3C Jigsaw CSS Validation service](https://jigsaw.w3.org/css-validator/) - used to validate CSS
+- [JS Lint](https://www.jslint.com) and [JSHint](https://jshint.com/) - used to check the JS
 - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - for performance testing.
 - [Wave](https://wave.webaim.org/) - for accessibility testing.
 - [Chrome developer tools](https://developer.chrome.com/docs/devtools/) - for testing responsiveness throughout.
 
 ### Frameworks and Libraries 
-- [Bootstrap](https://getbootstrap.com/) - version 5.2 was used throughout the project. Bootstrap documentation was used for the navigation bar, the hero sections, testimonial cards, route cards, the carousels, the form, and the footer. 
+- [Bootstrap](https://getbootstrap.com/) - version 5.2 was used for the homepage and the fact page. Bootstrap documentation was used specifically for the rules modal within the homepage, and aided with repsonsiveness on these pages. 
 - [Google Fonts](https://fonts.google.com/) - Selected a variety of fonts and imported these into the code. 
-- [Font awesome](https://fontawesome.com/) - Used for icons throughout the site.
-- [Image resizer](https://imageresizer.com/) - Used to resize all carousel images to be equal in size.
-- [Tinypng](https://tinypng.com/) - Used to compress images to help with loading time
+- [Image resizer](https://imageresizer.com/) - Used to resize all fact card images to be equal in size.
+
 
 ---
 
