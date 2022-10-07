@@ -142,7 +142,7 @@ I did not produce wireframes for mobile and tablet, although I did have the visi
 
 #### Colour
 
-![Colour palette showing the following colours #FFFFFF #F5F5F5 #187795 #3A716D #0D0C1D](readme-img/palette.png)
+![Colour palette showing the following colours #FBFCF0 #C9E4CA #459088 #568C72 #0A3621](readme-img/palette.png)
 - #FFFFFF - the background colour for individual sections of the website and for some sections of text
 - #F5F5F5 - the overall background colour
 - #187795 - the form background colour
