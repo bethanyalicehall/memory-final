@@ -40,28 +40,28 @@ I utilised the [Lighthouse](https://developer.chrome.com/docs/lighthouse/overvie
 - The results of the lighthouse testing can be seen below for each page. 
 - 
 ### Home page
-![Screenshot of Lighthouse testing for home page](readme-img/index1.png)
+![Screenshot of Lighthouse testing for home page](readme-img/index-1.png)
 
 
 
 ### Level 1 page
-![Screenshot of Lighthouse testing for routes page](readme-img/routes1.png)
+![Screenshot of Lighthouse testing for routes page](readme-img/level1-1.png)
 
 ### Level 2 page
-![Screenshot of Lighthouse testing for routes page](readme-img/routes1.png)
+![Screenshot of Lighthouse testing for routes page](readme-img/level2-1.png)
 
 
 ### Fun Facts page
-![Screenshot of Lighthouse testing for get in touch page](readme-img/touch1.png)
+![Screenshot of Lighthouse testing for get in touch page](readme-img/facts-1.png)
 
 
 
 ## Accessibility testing
 I utilised [Wave](https://wave.webaim.org/) which is a web accessibility evaluation tool.
 
-- One error was detected, that an empty button was present. This was the collapsible hamburger navbar button, which was adapted from Bootstrap documentation. It works well so I decided to leave it as it is, however will consider that in future projects.
-- The contrast ratio was good throughout and passed the tests for normal and large text, apart from the testimonial cards, so I made the background colour darker to increase readability, it then passed the tests.
-- The social media links within the footer did not all have titles, this error was corrected.
+- One error was dected, there was a paragraph, that the tool detected as looking like a heading so I changed that to an h2 element, from a paragraph element.
+- Some contrast errors were picked up on the buttons on the level 1 and 2 pages, I changed the text from an ivory colour to a dark green colour.
+- Some contrast errors were also acknowledged in the facts page, however they did still pass teh large text test and the text was large so it was ok.
 
 ## Responsiveness
 - I utilised Chrome Developer tools to test responsiveness on different devices, the following devices were sucesfully tested through this.
@@ -69,7 +69,6 @@ I utilised [Wave](https://wave.webaim.org/) which is a web accessibility evaluat
     - iPhone XR
     - iPhone 6/7/8
     - Samsung galaxy S8+
-    - iPad Air
     - iPad Mini
     - Surface pro 7
     - Galaxy Fold
@@ -84,26 +83,34 @@ I utilised [Wave](https://wave.webaim.org/) which is a web accessibility evaluat
 
 Each of the following tests were carried out on a Macbook Air and an iPhone 12 pro.
 
-- A functional navigation bar is present
-    - The navigation bar allows users to easily access links to the corresponding pages
+| Page | Element and expected action | Pass or Fail | 
+| ----------- | ----------- | ----------- |
+| All pages | There is a multi-toned green background | Pass |
+| All Pages | When hovering over a link the pointer changes and there is a colour change to indicate interactivity | Pass |
+| Home page | url linked in README.md displays Creature Corner homepage, and the frog Favicon is visbile | Pass |
+| Home page | There is a main title and a subtitle, giving more information about purpose of site | Pass |
+| Home page | The Play link takes you to level 1 of the memory game | Pass |
+| Home page | The Rules link opens up a modal explaining the rules| Pass |
+| Home page | Within the modal there are clear rules and a link to level 1 to start playing and a button to exit the modal | Pass |
+| Home page | The Animal facts link takes you to the facts page| Pass |
+| Level 1 and Level 2 | The game board fits centrally within the screen| Pass |
+| Level 1 and Level 2| The button to start the game, starts the timer for the game | Pass |
+| Level 1 and Level 2| The link back to the home page takes you to the home page| Pass |
+| Level 1 and Level 2| The timer and the moves counter work correctly| Pass |
+| Level 1 and Level 2| Each card starts face down| Pass |
+| Level 1 and Level 2| Each card turns over when clicked on adn you can only turn 2 cards over at the same time| Pass |
+| Level 1 and Level 2| If two cards do not match they will go facedown | Pass |
+| Level 1 and Level 2| If two cards do match they will stay face up | Pass |
+| Level 1 and Level 2| Once all of the cards are face up the game ends and a winning message appears | Pass |
+| Level 1 and Level 2| Within the winning text, information is provided on the users game stats including how many moves they have made and the time they took | Pass |
+| Level 1 and Level 2| Within the winning text there is a link to play again on level 1 and this takes you to the game area again | Pass |
+| Level 1 and Level 2| Within the winning text there is a link to play level 2 and this takes you to the level 2 page | Pass |
+| Facts page | The main website name, a title and a subtitle are presented at the top of the page, providing some more information about what this page is about | Pass |
+| Facts page | There is a link back to the home page which works | Pass |
+| Facts page | There are 12 colourful square images of animals | Pass |
+| Facts page | When you click on any animal the card flips and the name of the animal and a fact is displayed about the correct animal | Pass |
+| Facts page | When you click on the fact the card will again flip and the animal will be displayed | Pass |
 
-- The footer contains a link which allows the user to go back to the top of the page
-    - This is present on each page and works as expected
-
-- The social media links open in a new tab
-    - This works as expected
-
-- Users can scroll through the carousel or they can watch the slideshow which is automatic
-    - The carousels work as expected
-
-- The video does not play automatically and there are controls available to the user
-    - The video is paused until the user decides to play it.
-
-- The form does not allow wrong input types to by inputted.
-    - An alert will appear when attempting to submit if wrong input type has been used.
-
-- A 404 error page will appear if an incorrect url is entered
-    - This works as expected and has a link to go back to home page
 
 
 ### Browser compatibility
