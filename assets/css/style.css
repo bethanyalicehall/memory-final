@@ -64,9 +64,21 @@ font-size: 40px !important;
     font-size: 1.5rem !important;
     
 }
+#gameTitle2 {
+    text-align: center;
+    font-size: 1.5rem !important;
+    
+}
 /*Level 1*/
 /*Positioning the main game area*/
 .game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.game2 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -230,7 +242,27 @@ button {
     line-height: 75px;
     background: #FDF8E6;
 }
-    
+.game2 {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+
+#gameTitle2 {
+    text-align: center;
+    font-size: 1.5rem !important;
+    position: absolute;
+    left: 20%;
+}
+
+#gameTitle {
+    text-align: center;
+    font-size: 1.5rem !important;
+    position: absolute;
+    left: 27%;
+}
 }
 
 @media screen and (max-width: 600px) {
@@ -247,8 +279,105 @@ button {
         line-height: 50px;
         background: #FDF8E6;
     }
+
+    .game2 {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #gameTitle2 {
+        text-align: center;
+        font-size: 1.25rem !important;
+        position: absolute;
+        left: 25%;
+    }
+    #gameTitle {
+        text-align: center;
+        font-size: 1.5rem !important;
+        position: absolute;
+        left: 10%;
+    }
+
+    .game {
+        position: absolute;
+        top: 40%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+    }
 }
 
+
+@media screen and (max-width: 800px) {
+.win {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #0e1594;
+    transform: rotateY(180deg) rotateZ(50deg);
+}
+
+.win-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 21pt;
+    color: #282A3A;
+}
+
+.win-btn {
+    background: #568c72;
+    color: #fbfcf0 !important;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 0;
+    cursor: pointer;
+    font-size: 15pt;
+    cursor: pointer;
+    margin: 10px;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .win {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background: #953f0d;
+        transform: rotateY(180deg) rotateZ(50deg);
+    }
+    
+    .win-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 15pt;
+        color: #282A3A;
+    }
+    .stats-text {
+        font-size: 10pt !important;
+    }
+
+    .win-btn {
+        background: #568c72;
+        color: #fbfcf0 !important;
+        border-radius: 5px;
+        padding: 0;
+        border: 0;
+        cursor: pointer;
+        font-size: 10pt;
+        cursor: pointer;
+        margin: 2px;
+    }
+    }
 
 /*********************************   Fact card page      *******************************************/
 

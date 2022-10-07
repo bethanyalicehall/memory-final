@@ -53,12 +53,10 @@ const pickRandom = (array, items) => {
 const generateGame = () => {
     const dimensions = selectors.board.getAttribute('data-dimension')
 
-    if (dimensions % 2 !== 0) {
-        throw new Error("The dimension of the board must be an even number.")
-    }
+    
 
     const emojis = ['🐶', '🦦 ', '🐯', '🐘', '🐧', '🐒 ', '🦙', '🦒', '🐬', '🦜', '🦋', '🐢', '🦁', '🦧', '🦓', '🐠', '🦥', '🐝']
-    const picks = pickRandom(emojis, (dimensions * dimensions) / 2) 
+    const picks = pickRandom(emojis, (dimensions * 2)) 
     const items = shuffle([...picks, ...picks])
     const cards = `
         <div class="board" style="grid-template-columns: repeat(${dimensions}, auto)">
@@ -126,8 +124,8 @@ const flipCard = card => {
             selectors.win.innerHTML = `
                 <span class="win-text">
                     <h1 class="font-1">You won!</h1>
-                    <p>You used <span class="highlight">${state.totalFlips}</span> moves</p>
-                    <p>and took <span class="highlight">${state.totalTime}</span> seconds</p>
+                    <p class="stats-text">You used <span class="highlight">${state.totalFlips}</span> moves</p>
+                    <p class="stats-text">and took <span class="highlight">${state.totalTime}</span> seconds</p>
                     <button class="win-btn game-btn"><a href="level2.html">Brave enough for level 2?</a></button>
                     <br>
                     <button class="win-btn game-btn"><a href="level1.html">Practice more on level 1</a></button>
